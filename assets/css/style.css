@@ -1,3 +1,127 @@
-.photo{
-    background-image: url("assets/images/coverphoto.jpeg");
+body{
+    background-image: url("/../coverphoto.jpeg");
 }
+
+.info-container{
+    width: 25%;
+    height: 500px;
+    margin-left: 37.5%;
+    margin-top: 6%;
+    border: solid, white, 1px;
+    border-radius: 2%;
+    background-color: rgba(255, 124, 205, 0.3);
+}
+
+.top-box{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-radius: 2%;
+    height: 30%;
+    background-color: rgb(24, 235, 254, 0.6);
+}
+
+.bottom-box {
+    width: 80%;
+    height: 55%;
+    margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left{
+    width: 45%;
+    height: 100%;
+    border-radius: 2%;
+    background-color: rgb(255, 0, 162, 0.6);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: rgb(27, 91, 27);
+}
+
+a:visited{
+    color: rgb(27, 91, 27);;
+}
+
+.bottom-right{
+    width: 45%;
+    height: 100%;
+    border-radius: 2%;
+    background-color: rgb(251, 113, 0, 0.6);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: rgb(27, 91, 27);
+}
+
+.title-box{
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 10%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    color: rgb(27, 91, 27);
+}
+
+i{
+    margin-bottom: 25px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 480px) {
+    .info-container{
+        width: 80%;
+        height: 500px;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+    body{
+        background-position: right;
+    }
+
+    .bottom-box{
+        justify-content: center;
+        font-size: 12px;
+    }
+
+    .bottom-left, .bottom-right{
+        width: 50%;
+        font-size: 18px;
+    }
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 1080px) {
+    .info-container{
+        width: 80%;
+        height: 500px;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+    .bottom-box{
+        justify-content: center;
+        font-size: 12px;
+    }
+
+    .bottom-left, .bottom-right{
+        width: 50%;
+        font-size: 18px;
+    }
+  }
+
+
+  @media screen and (min-width: 1080px) and (max-width: 1600px) {
+    .info-container{
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .title-box{
+        letter-spacing: 0;
+    }
+
+  }
