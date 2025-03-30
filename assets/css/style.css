@@ -69,6 +69,11 @@ i{
     margin-bottom: 25px;
 }
 
+.footer-text{
+    text-align: center;
+    color: crimson;
+}
+
 /* media queries */
 
 @media screen and (max-width: 480px) {
