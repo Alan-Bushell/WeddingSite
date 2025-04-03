@@ -74,6 +74,27 @@ i{
     color: crimson;
 }
 
+.countcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+#countdown{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    border: solid 2px, white;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.h4-countdown{
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+    color: white;
+}
+
 /* media queries */
 
 @media screen and (max-width: 480px) {
